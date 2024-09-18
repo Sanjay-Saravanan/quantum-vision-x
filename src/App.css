@@ -1,0 +1,67 @@
+.main{
+  /* background-color: blue; */
+  height: 200px;
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center ;
+  /* justify-items: center; */
+}
+.logo{
+  height: 150px;
+}
+.data{
+  height: fit-content;
+  width: 100vw;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  font-size:  large;
+  font-weight: 700;
+}
+
+.data1 {
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  gap: 10px;
+  border: 2px black solid;
+  border-radius: 20px;
+  display: grid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+  grid-auto-rows: minmax(100px, auto); /* Adjust row height as needed */
+}
+
+
+.dataon {
+  height: fit-content;
+  width: 330px;
+  background-color: rgb(17, 255, 0);
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;                  /* Enable Flexbox */
+  flex-direction: column;
+  justify-content: center;       /* Center items horizontally */
+  align-items: center;           /* Center items vertically */
+  text-align: center;            /* Center text if needed */
+
+}
+
+
+
+.dataoff {
+  height: fit-content;
+  width: 330px;
+  background-color: rgb(255, 0, 0);
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;                  /* Enable Flexbox */
+  flex-direction: column;
+  justify-content: center;       /* Center items horizontally */
+  align-items: center;           /* Center items vertically */
+  text-align: center;            /* Center text if needed */
+  
+}
